@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>travel resigtration page</title>
+        <link rel="stylesheet" href="stylesheet5.css">
+    </head>
+    <body>
+        <div>
+            <main>
+                <div>
+                    <h1>Travel Form</h1>
+                    <h3>please complete the travel form</h3>
+                </div>
+                    <form action="index2.html">
+                        <label>
+                            Username :
+                            <input type="text" placeholder="Enter Username" required>
+                        </label>
+                        <label>
+                            Password :
+                            <input type="password" placeholder="Enter password" required>
+                        </label>
+                        <label>
+                            Email Address :
+                            <input type="email" placeholder="someone@gmail.com" required>
+                        </label>
+                        <label>
+                            Phone number :
+                            <input type="number" placeholder="Enter a 11-digit Phone number" required>
+                        </label>
+                        <label id="destination">
+                            Destination :
+                            <select id="dropdown">
+                                <option>Choose one</option>
+                                <optgroup label="Africa">
+                                    <option>Egypt</option>
+                                    <option>South Africa</option>
+                                    <option>Algeria</option>
+                                    <option>Morroco</option>
+                                    <option>Tunisia</option>
+                                </optgroup>
+                                <optgroup label="Asia">
+                                    <option>China</option>
+                                    <option>South Korea</option>
+                                    <option>Japan</option>
+                                    <option>India</option>
+                                    <option>Malasyia</option>
+                                    <option>Pakistan</option>
+                                    <option>Indonesia</option>
+                                </optgroup>
+                                <optgroup label="Europe">
+                                    <option>UK</option>
+                                    <option>France</option>
+                                    <option>Germany</option>
+                                    <option>Russia</option>
+                                    <option>Norway</option>
+                                    <option>Sweden</option>
+                                    <option>Iceland</option>
+                                    <option>Italy</option>
+                                    <option>Greece</option>
+                                    <option>Austria</option>
+                                    <option>Belgium</option>
+                                </optgroup>
+                                <optgroup label="North America">
+                                    <option>Canada</option>
+                                    <option>Mexico</option>
+                                    <option>USA</option>
+                                </optgroup>
+                                <optgroup label="South America">
+                                    <option>Argentine</option>
+                                    <option>Brazil</option>
+                                    <option>Uruguay</option>
+                                </optgroup>
+                            </select required>
+                        </label> <br>
+                        <label>
+                            Arrival :
+                            <input type="date" placeholder="Enter the Arrival Date" required>
+                        </label>
+                        <label>
+                            Departure:
+                            <input type="date" placeholder="Enter the Departure Date" required>
+                        </label>
+                        <div id="division">
+                            <input type="file" value="Choose a File" required>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+            </main>
+        </div>
+    </body>
+</html>
